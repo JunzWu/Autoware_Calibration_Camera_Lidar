@@ -13,8 +13,11 @@ Ubuntu 18.04 and Ros-melodic
    catkin_make
    ```
 ## Getting Started
-1. `roscore` in another terminal
-2. `rosrun calibration_camera_lidar calibration_toolkit`
+`roscore` in another terminal
+```
+source devel/setup.bash
+rosrun calibration_camera_lidar calibration_toolkit
+```
 
 ## Reference
 https://github.com/XidianLemon/calibration_camera_lidar
