@@ -18,6 +18,8 @@ Ubuntu 18.04 and Ros-melodic
 source devel/setup.bash
 rosrun calibration_camera_lidar calibration_toolkit
 ```
+## Tutorial of Calibration
+https://github.com/Autoware-AI/autoware.ai/wiki/Calibration
 
 ## Reference
 https://github.com/XidianLemon/calibration_camera_lidar
