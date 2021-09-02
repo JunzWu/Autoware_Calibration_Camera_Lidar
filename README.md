@@ -22,7 +22,7 @@ rosrun calibration_camera_lidar calibration_toolkit
 https://github.com/Autoware-AI/autoware.ai/wiki/Calibration
 In step 3.1, if your recorded PointCloud2 topic is not `/points_raw`, you need to transfer it into `/points_raw` using the command below:
 ```
-rosbag play bagName.bag /velodyne_points:=/points_raw
+rosbag play bagName.bag /YourPointCloud2Topic:=/points_raw
 ```
 ## Reference
 https://github.com/XidianLemon/calibration_camera_lidar
