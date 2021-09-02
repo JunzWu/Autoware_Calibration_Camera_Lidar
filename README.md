@@ -25,5 +25,6 @@ In step 3.1, if your recorded PointCloud2 topic is not `/points_raw`, you need t
 ```
 rosbag play bagName.bag /YourPointCloud2Topic:=/points_raw
 ```
+The CalibrationToolkit_Manual.pdf is uploaded which also include the calibration process in this toolkit.
 ## Reference
 https://github.com/XidianLemon/calibration_camera_lidar
