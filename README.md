@@ -24,7 +24,7 @@ Ubuntu 18.04 and Ros-melodic
    source devel/setup.bash
    rosrun calibration_camera_lidar calibration_toolkit
    ```
-4. Keep playing the rosbag until the chessboard is in a good position.
+4. Keep playing the rosbag until the chessboard is in a good position, then pause it again.
 ## Tutorial of Calibration
 https://www.youtube.com/watch?v=pfBmfgHf6zg
 
