@@ -15,15 +15,15 @@ Ubuntu 18.04 and Ros-melodic
 ## Getting Started
 1. `roscore` in another terminal
 2. Play the rosbag. if your recorded PointCloud2 topic is not `/points_raw`, you need to transfer it into `/points_raw` using the command below":
-```
-rosbag play bagName.bag /YourPointCloud2Topic:=/points_raw
-```
+   ```
+   rosbag play bagName.bag /YourPointCloud2Topic:=/points_raw
+   ```
 Once the rosbag is playing, quickly pause it using the space button. 
 3. Open the toolkit
-```
-source devel/setup.bash
-rosrun calibration_camera_lidar calibration_toolkit
-```
+   ```
+   source devel/setup.bash
+   rosrun calibration_camera_lidar calibration_toolkit
+   ```
 4. Keep playing the rosbag until the chessboard is in a good position.
 ## Tutorial of Calibration
 https://www.youtube.com/watch?v=pfBmfgHf6zg
