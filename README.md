@@ -29,6 +29,8 @@ Ubuntu 18.04 and Ros-melodic
 https://www.youtube.com/watch?v=pfBmfgHf6zg
 
 The CalibrationToolkit_Manual.pdf is uploaded which also include the calibration process in this toolkit.
+
 **Remember to stay in Mode 1 after pressing the grab button, if you cannot extract the plane of the board, press "↑ ↓ ← →" to adjust the postion.**
+
 ## Reference
 https://github.com/XidianLemon/calibration_camera_lidar
